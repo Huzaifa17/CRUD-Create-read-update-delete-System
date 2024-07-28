@@ -1,4 +1,4 @@
-# CRUD System with Flask, Python, and MongoDB
+# CRUD(create, read, update, delete)System
 
 ## Overview
 
@@ -30,5 +30,5 @@ This project is a simple CRUD (Create, Read, Update, Delete) system implemented 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/Huzaifa17/CRUD-Create-read-update-delete-System
+   cd CRUD-Create-read-update-delete-System
