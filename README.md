@@ -44,5 +44,6 @@ This project is a simple CRUD (Create, Read, Update, Delete) system implemented 
 
 4. **Setup MongoDB:**
    1.Ensure MongoDB is installed and running on your local machine or accessible via a connection string
+   
    2.Update the MongoDB connection URI in app.py
 
