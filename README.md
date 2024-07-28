@@ -40,10 +40,38 @@ This project is a simple CRUD (Create, Read, Update, Delete) system implemented 
    
 3. **Install Dependencies:**
    ```bash
-   pip install -r Flask, pymongo
+   pip install Flask, pymongo
 
 4. **Setup MongoDB:**
-   1.Ensure MongoDB is installed and running on your local machine or accessible via a connection string
+
+   1. Ensure MongoDB is installed and running on your local machine or accessible via a connection string
+   2. Update the MongoDB connection URI in app.py
+
+## Run the application
+1. **run on terminal:**
+   ```bash
+   python app.py
    
-   2.Update the MongoDB connection URI in app.py
+2. **Open your web browser and navigate to http://localhost:5000.**
+
+## Usage
+- **Create a Record**
+
+  1.Click on the "Add New" button.
+  
+  2.Fill in the form and submit.
+     
+- **Read records**
+  
+  1.The homepage displays all records from the MongoDB collection.
+
+- **Update a Record**
+  
+  1.Click the "Edit" button next to the record you want to update.
+  
+  2.Modify the fields and submit.
+
+- **Delete a Record**
+  
+  1.Click the "Delete" button next to the record you want to delete.
 
