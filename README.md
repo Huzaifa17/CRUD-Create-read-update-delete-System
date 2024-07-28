@@ -23,7 +23,7 @@ This project is a simple CRUD (Create, Read, Update, Delete) system implemented 
 
 ### Prerequisites
 
-- Python 3.6+
+- Python 3
 - MongoDB
 
 ### Setup
@@ -32,3 +32,17 @@ This project is a simple CRUD (Create, Read, Update, Delete) system implemented 
    ```bash
    git clone https://github.com/Huzaifa17/CRUD-Create-read-update-delete-System
    cd CRUD-Create-read-update-delete-System
+   
+2. **Create a Virtual Environment:**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   
+3. **Install Dependencies:**
+   ```bash
+   pip install -r Flask, pymongo
+
+4. **Setup MongoDB:**
+   1.Ensure MongoDB is installed and running on your local machine or accessible via a connection string
+   2.Update the MongoDB connection URI in app.py
+
