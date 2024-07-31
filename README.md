@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a simple CRUD (Create, Read, Update, Delete) system implemented using Flask, Python, and MongoDB. It provides a basic web interface to manage a collection of items (e.g., users, products, tasks).
+This project is a simple CRUD (Create, Read, Update, Delete) system implemented using Flask, Python, and MongoDB. It provides a basic web interface to manage a collection of student information.
 
 ## Features
 
